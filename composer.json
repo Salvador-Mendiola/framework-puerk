@@ -1,0 +1,24 @@
+{
+    "name": "pc-puerk/cinnamoroll-framework",
+    "description": "Creación del framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PcPuerk\\CinnamorollFramework\\": "app/",
+            "config\\": "app/config/",
+            "controller\\": "app/controller/",
+            "model\\": "app/model"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salvador-Mendiola",
+            "email": "pangu25.smt@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.6@dev"
+    }
+}
